@@ -42,6 +42,18 @@
             border-radius: 10px;
         }
         
+        .video-container {
+            text-align: center;
+            margin: 40px;
+        }
+        
+        .video-container video {
+            width: 80%; /* Adjust the video width */
+            height: 400px; /* Adjust the video height */
+            border: none;
+            border-radius: 10px;
+        }
+        
         .contact-info {
             text-align: center;
             margin-bottom: 20px;
@@ -54,7 +66,7 @@
 </head>
 <body>
     <header>
-        <img src="Purple.png" alt="Your Brand Logo">
+        <img src="purple.png" alt="Your Brand Logo">
     </header>
     
     <!-- Gallery Section -->
@@ -65,6 +77,15 @@
         <img src="Product 2.png" alt="Product Picture 2">
         <img src="product-picture3.jpg" alt="Product Picture 3">
         <!-- Add more product pictures here -->
+    </div>
+    
+    <!-- Video Section -->
+    <div class="video-container">
+        <h2>Watch Our Video</h2>
+        <video controls>
+            <source src="your-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
     
     <!-- Contact Information Section -->
