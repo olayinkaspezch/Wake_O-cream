@@ -1,153 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WAKE-0 CREAM</title>
-    <style>
-        /* Add some basic styling */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #FFC0CB; /* Pink background */
-        }
-        
-        header {
-            background-color: #FFFFFF; /* White header background */
-            padding: 20px;
-            text-align: center;
-        }
-        
-        header img {
-            width: 100px; /* Adjust the logo width */
-            height: auto;
-            margin: 0 auto;
-        }
-        
-        nav {
-            background-color: #FFFFFF; /* White navigation background */
-            padding: 10px;
-            text-align: center;
-        }
-        
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-        
-        nav ul li {
-            display: inline-block;
-            margin-right: 20px;
-        }
-        
-        nav a {
-            text-decoration: none;
-            color: #000000; /* Black navigation link color */
-        }
-        
-        .home-container {
-            text-align: center;
-            margin: 40px;
-        }
-        
-        .about-us-container {
-            text-align: center;
-            margin: 40px;
-        }
-        
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            background-color: #FFFFFF; /* White gallery background */
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        
-        .gallery img {
-            width: 200px; /* Adjust the picture width */
-            height: 150px; /* Adjust the picture height */
-            margin: 10px;
-            border-radius: 10px;
-        }
-        
-        .video-container {
-            text-align: center;
-            margin: 40px;
-        }
-        
-        .video-container video {
-            width: 80%; /* Adjust the video width */
-            height: 400px; /* Adjust the video height */
-            border: none;
-            border-radius: 10px;
-        }
-        
-        .contact-info {
-            text-align: center;
-            margin-bottom: 20px;
-            background-color: #FFFFFF; /* White contact info background */
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WAKE-O CREAM</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffe6f0; /* Soft pink background */
+      color: #333;
+    }
+    header {
+      background-color: #4B0082;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      width: 120px;
+    }
+    nav {
+      background-color: #350062;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .home {
+      text-align: center;
+      background-color: #ffd6e7;
+      padding: 40px 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    .group-photo, .product-gallery, .video-ad {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .product-gallery img, .group-photo img {
+      width: 200px;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .video-ad video {
+      width: 100%;
+      max-width: 640px;
+      border-radius: 10px;
+    }
+    .contact {
+      background-color: #f9cce0;
+      padding: 20px;
+      text-align: center;
+      font-size: 18px;
+      border-radius: 10px;
+    }
+    .contact a {
+      color: #4B0082;
+      text-decoration: none;
+    }
+    .about-us {
+      text-align: center;
+      background-color: #ffe0ed;
+      padding: 20px;
+      border-radius: 10px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <img src="Purple.png" alt="WAKE-0 CREAM Logo">
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Our Products</a></li>
-            <li><a href="#">Ad Video</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    
-    <!-- Home Section -->
-    <div class="home-container">
-        <h1>HOME</h1>
-        <h2>Discover the best cream and enhance shine on your skin radiant, and smoother look, everyday shine bright</h2>
-    </div>
-    
-    <!-- About Us Section -->
-    <div class="about-us-container">
-        <h1>About Us</h1>
-        <p>WAKE-O cream is a well known brand well influenced to the world with our commitments to creating moisture creams, to provide intense hydration keep your skin soft and smooth under our products.</p>
-    </div>
-    
-    <!-- Gallery Section -->
-    <div class="gallery">
-        <h2>WAKE-0 Team and Products</h2>
-        <img src="group-picture.jpg" alt="Group Picture">
-        <img src="Product1.png" alt="Product1.png">
-        <img src="Product 2.png" alt="Product 2. png">
-        <img src="product-picture3.jpg" alt="Product Picture 3">
-        <!-- Add more product pictures here -->
-    </div>
-    
-    <!-- Video Section -->
-    <div class="video-container">
-        <h2>Watch Our Video</h2>
-        <video controls>
-            <source src="Video.mp4" type="Video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-    
-    <!-- Contact Information Section -->
-    <div class="
-```<!-- Contact Information Section -->
-<div class="contact-info">
-    <p>Email: youngkiddawg@gmail.com</p>
-    <p>Phone: 08148742946</p>
-</div>
-```
+
+<header>
+  <img src="file-A7ga5g4RUTVngogJsyj1RN" alt="WAKE-O Logo">
+  <h1>Welcome to WAKE-O CREAM</h1>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About Us</a>
+  <a href="#products">Our Products</a>
+  <a href="#video">Ad Video</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="home">
+  <h2>HOME</h2>
+  <p>Discover the best cream and enhance shine on your skin. Radiant, and smoother look—everyday, shine bright with WAKE-O CREAM.</p>
+</section>
+
+<section id="about" class="group-photo">
+  <h2>WAKE-O Team</h2>
+  <img src="file-MHB3inecXZkj6kZmr5D4TH" alt="Group Photo">
+</section>
+
+<section id="products" class="product-gallery">
+  <h2>WAKE-O Products</h2>
+  <img src="file-LWMrLAgPQi3nyxVQJGr1zD" alt="Product 1">
+  <img src="file-MHB3inecXZkj6kZmr5D4TH" alt="Product 2">
+  <img src="file-A7ga5g4RUTVngogJsyj1RN" alt="Product 3">
+</section>
+
+<section class="about-us">
+  <h2>About Us</h2>
+  <p>WAKE-O CREAM is a well-known brand well influenced around the world, with our commitment to creating moisture creams for intense hydration. We keep your skin soft and smooth every day.</p>
+</section>
+
+<section id="video" class="video-ad">
+  <h2>Advertisement</h2>
+  <video controls>
+    <source src="your-video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <p>Email: <a href="mailto:youngkiddawg@gmail.com">youngkiddawg@gmail.com</a></p>
+  <p>Phone: <a href="tel:+2348148742946">08148742946</a></p>
+</section>
+
 </body>
-</html>  
+</html>
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <p>If you are interested in getting our cream, reach out to us via our email and phone number below:</p>
+  <p><strong>Primary Email:</strong> <a href="mailto:youngkiddawg@gmail.com">youngkiddawg@gmail.com</a></p>
+  <p><strong>Business Email:</strong> <a href="mailto:thepolytechniciresi@gmail.com">thepolytechniciresi@gmail.com</a></p>
+  <p><strong>Phone:</strong> <a href="tel:+2348148742946">08148742946</a></p>
+</section>
